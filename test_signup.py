@@ -5,6 +5,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 
 BROWSER = webdriver.Firefox()
 URL = "mrr-uc253.appspot.com/unit2/signup"
+URL_dev = localhost:9999
 
 ##LOCATORS##
 
@@ -33,7 +34,7 @@ class TestSignUp():
 
 	def setup_class(self):
 		BROWSER.maximize_window()
-		BROWSER.get(URL)
+		BROWSER.get(URL_dev)
 
 	def teardown_class(self):
 		#BROWSER.quit()
