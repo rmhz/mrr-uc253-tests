@@ -5,7 +5,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 
 BROWSER = webdriver.Firefox()
 URL = "mrr-uc253.appspot.com/unit2/signup"
-URL_dev = localhost:9999
+URL_dev = "localhost:9999/unit2/signup"
 
 ##LOCATORS##
 
